@@ -1,6 +1,6 @@
 <?php 
 
-    echo "Hola heroku!"
+    echo "Hola heroku y github"
 
 ?>
 
