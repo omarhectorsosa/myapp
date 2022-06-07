@@ -2,7 +2,7 @@
 
     echo "Hola heroku y github (base de datos)";
 
-    if (!($conexion=mysqli_connect("localhost","user","password","bd"))) { 
+    if (!($conexion=mysqli_connect("4.tcp.ngrok.io:10307","root","password","almacen"))) { 
       echo "Error al conectar";
     } 
 
